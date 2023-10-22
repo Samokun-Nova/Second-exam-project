@@ -1,10 +1,15 @@
-body {
-  background-color: snow;
+.welcome {
+  font-size: 40px;
+  padding-top: 35px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .home {
-  background-color: slategrey;
+  background-color: rgba(128, 128, 128, 0.418);
   border-radius: 10px;
-  height: 210px;
+  height: 350px;
 }
 .page-center {
   display: flex;
@@ -13,6 +18,14 @@ body {
   align-items: center;
   margin: 0 auto;
   margin-top: 50px;
+}
+
+.pageError {
+  font-size: 60px;
+}
+.pageNotFound {
+  font-size: 35px;
+
 }
 .homeErrBound {
   text-decoration: none;
@@ -27,9 +40,13 @@ body {
   padding-left: 10px;
 }
 ul {
+  padding-top: 40px;
   display: flex;
-  flex-direction: column;
-  gap: 20px;
+  flex-direction: row;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
   list-style: none;
 }
 li {
@@ -52,6 +69,18 @@ nav {
   padding: 20px;
   padding-left: 120px;
 }
+.toCounter:hover {
+  color: rgba(35, 33, 172, 0.801);
+  font-size: 23px;
+}
+.toPage:hover {
+  color: rgba(35, 33, 172, 0.801);
+  font-size: 23px;
+}
+.toError:hover {
+  color: rgba(35, 33, 172, 0.801);
+  font-size: 23px;
+}
 .toCounter {
   text-decoration: none;
 }
@@ -63,6 +92,17 @@ nav {
 }
 h1 {
   margin-top: 5px;
+}
+.counter-app-header {
+  font-size: 30px;
+
+}
+
+.counter-button {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  margin-bottom:  20px;
 }
 .linkHome {
   text-decoration: none;
@@ -79,8 +119,13 @@ h1 {
   margin: 10px;
   padding: 10px 20px;
   border: 1px solid #ccc;
-  border-radius: 5px;
+  border-radius: 10px;
   cursor: pointer;
+  width: 130px;
+}
+
+.button-counter {
+  border-radiue: 10px;
 }
 
 .counter button:hover {
@@ -88,5 +133,15 @@ h1 {
 }
 
 .counter button:active {
-  background-color: #aaa;
+  background-color: rgba(35, 33, 172, 0.801);
+}
+.input {
+  height: 27px;
+  border-radius: 5px;
+  border-color: rgba(35, 33, 172, 0.801);
+  margin-bottom: 20px;
+}
+.linkHome:active {
+  color: rgba(35, 33, 172, 0.801);
+  font-size: 20px;
 }
