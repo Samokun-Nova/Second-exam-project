@@ -1,5 +1,5 @@
 .welcome {
-  font-size: 40px;
+  font-size: 20px;
   padding-top: 35px;
   margin: 0 auto;
   display: flex;
@@ -7,7 +7,7 @@
   align-items: center;
 }
 .home {
-  background-color: rgba(128, 128, 128, 0.418);
+  background-color: rgba(44, 36, 26, 0.292);
   border-radius: 10px;
   height: 350px;
 }
@@ -21,19 +21,22 @@
 }
 
 .pageError {
-  font-size: 60px;
+  font-size: 70px;
 }
 .pageNotFound {
   font-size: 35px;
-
 }
 .homeErrBound {
   text-decoration: none;
   font-size: 20px;
+  color: rgba(25, 24, 114, 0.801);
+  display: flex;
+  justify-content: center;
 }
 .homeError {
   text-decoration: none;
   font-size: 20px;
+  background-color: aquamarine;
 }
 .homePage {
   padding-top: 10px;
@@ -51,7 +54,8 @@ ul {
 }
 li {
   text-decoration: none;
-  font-size: 20px;
+  font-size: 15px;
+  margin-top: 30px;
 }
 
 nav {
@@ -70,7 +74,7 @@ nav {
   padding-left: 120px;
 }
 .toCounter:hover {
-  color: rgba(35, 33, 172, 0.801);
+  color: rgba(25, 24, 114, 0.801);
   font-size: 23px;
 }
 .toPage:hover {
@@ -95,14 +99,13 @@ h1 {
 }
 .counter-app-header {
   font-size: 30px;
-
 }
 
 .counter-button {
   display: flex;
   flex-direction: row;
   gap: 40px;
-  margin-bottom:  20px;
+  margin-bottom: 20px;
 }
 .linkHome {
   text-decoration: none;
@@ -129,7 +132,7 @@ h1 {
 }
 
 .counter button:hover {
-  background-color: #ccc;
+  background-color: #615a53cf;
 }
 
 .counter button:active {
@@ -143,5 +146,5 @@ h1 {
 }
 .linkHome:active {
   color: rgba(35, 33, 172, 0.801);
-  font-size: 20px;
+  font-size: 30px;
 }
